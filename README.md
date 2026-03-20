@@ -23,6 +23,7 @@ This project is an NLP-based ticket classification system that automatically cat
 - Trained a Logistic Regression model
 - Saved model, vectorizer, and label mapping
 - Built a prediction pipeline
+- 
 
 ---
 
@@ -50,6 +51,7 @@ This project is an NLP-based ticket classification system that automatically cat
 - Trained a Logistic Regression model
 - Saved model, vectorizer, and label mapping
 - Built a prediction pipeline
+- Experimented with DistilBERT using HuggingFace
 
 ---
 
@@ -60,3 +62,18 @@ This project is an NLP-based ticket classification system that automatically cat
 ├── notebooks/
 ├── src/
 ├── requirements.txt
+
+-How to Run
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Train model:
+
+cd src
+python train.py
+
+Run prediction:
+
+python predict.py
